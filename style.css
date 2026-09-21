@@ -1350,48 +1350,34 @@ img {
    MOBILE
 ===================================================== */
 
+/* =====================================================
+   ZALO / MOBILE - CĂN GIỮA TÊN CÔ DÂU CHÚ RỂ
+===================================================== */
+
 @media (max-width: 800px) {
-
-  .container {
-    width: 100%;
-    max-width: 600px;
-
-    padding-left: 18px;
-    padding-right: 18px;
-
-    margin: 0 auto;
-  }
-
-  .hero {
-    width: 100%;
-    max-width: 100%;
-    min-width: 0;
-  }
-
-  .hero::before {
-    background-position: center center;
-    background-size: cover;
-  }
 
   .hero-content {
     width: 100%;
-    max-width: 100%;
-
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
   }
 
   .hero-title {
-    font-size: 80px;
+    width: 100%;
+    max-width: 100%;
+
+    font-size: 58px;
+    line-height: 0.9;
+
     letter-spacing: -2px;
+
+    text-align: center;
+
+    white-space: nowrap;
   }
 
-  .hero-date {
-    font-size: 20px;
-  }
 }
-
-
 /* =====================================================
    SMALL PHONE
 ===================================================== */
